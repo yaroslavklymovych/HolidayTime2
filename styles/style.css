@@ -1,0 +1,334 @@
+body, html{
+    margin: 0;
+    background: #DCDCDC;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    flex-shrink: 0;
+    background: #202846;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-left: 138px;
+    margin-top: 10px;
+}
+.menu{
+    width: 170px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.line{
+    width: 2px;
+    height: 59px;
+    background: #FFF;
+}
+#selector{
+    width: 65px;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #202846;
+    align-self: center;
+}
+.menu_ending{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
+    width: 170px;
+    height: 55px;
+}
+.pic1{
+    width: 100%;
+    height: 369px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pic1_text{
+    width: 1485px;
+    height: 369px;
+    background-color: black;
+    align-items: center;
+    align-self: center;
+    background-image: url(/image/12345\ 1.png);
+}
+.Holiday_Time{
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.TXT{
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.pic3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 412px;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.image{
+    width: 698px;
+    height: 349px;
+    flex-shrink: 0;
+    align-self: center;
+}
+.rectangle{
+    width: 1488px;
+    height: 412px;
+    flex-shrink: 0;
+    background: rgba(193, 193, 195, 0.90);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-self: center;
+}
+.text_rectangle{
+    text-align: center;
+    align-self: center;
+    display: flex;
+    width: 632px;
+    height: 349px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    background: #DCDCDC;
+}
+.text{
+    color: #202846;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pic2{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 604px;
+    flex-shrink: 0;
+    justify-content: space-around;
+}
+.img{
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    display: flex;
+    width: 1488px;
+    height: 604px;
+    background: url(/image/image\ 3.png), lightgray 0.106px -55.295px / 100% 161.613% no-repeat;
+}
+.rect{
+    width: 1164px;
+    height: 167px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.80);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.txt{
+    display: flex;
+    width: 1118px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #202846;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.circles{
+    display: flex;
+    text-align: center;
+}
+.move{
+    background-image: url(/image/Component\ 5.svg);
+    width: 245px;
+    height: 68px;
+    align-self: flex-end;
+    margin-top: -40px;
+    margin-right: -30px;
+    justify-content: space-around;
+    display: flex;
+}
+.arrow{
+    stroke-width: 3px;
+    stroke: #FFF;
+    width: 33.979px;
+    transform: rotate(-0.456deg);
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+.arrow_text{
+    color: #FFF;
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 149.645px;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.arrow2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: end;
+}
+.feedback_frame{
+    justify-content: center;
+    height: 481px;
+    display: flex;
+}
+.feedback{
+    margin-top: 49px;
+    width: 518px;
+    height: 481px;
+    display: flex;
+    border: 3px solid rgba(170, 170, 170, 0.20);
+    background: #F2EEEE;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.feedback_text{
+    align-self: center;
+    display: flex;
+    width: 332px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #414141;
+    font-family: "PT Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.name_text{
+    color: #323236;
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-direction: row-reverse;
+}
+.name{
+    display: flex;
+    width: 408px;
+    padding: 18px 28px;
+    align-items: flex-start;
+    gap: 56px;
+    border: 2px solid var(--gray-300, #90A4AE);
+    background: var(--neutral-white, #FFF);
+    color: var(--gray-300, #90A4AE);
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.number_text{
+    color: #323236;
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.number{
+    display: flex;
+    width: 408px;
+    padding: 18px 28px;
+    align-items: flex-start;
+    gap: 56px;
+    border: 2px solid var(--gray-300, #90A4AE);
+    background: var(--neutral-white, #FFF);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    height: 65%;
+}
+.requestion_rect{
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    height: 104px;
+    flex-shrink: 0;
+    background: #444765;
+}
+.requestion_text{
+    display: flex;
+    width: 100%;
+    color: #FFF;
+    font-family: "PT Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: space-around;
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background: #202846;
+    margin-top: 6%;
+    display: flex;
+    justify-content: start;
+}
+.footer_text{
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    width: 709px;
+    color: rgba(238, 236, 241, 1);
+    display: flex;
+}

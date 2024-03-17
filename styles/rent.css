@@ -1,0 +1,433 @@
+body, html{
+    margin: 0;
+    background: #DCDCDC;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    flex-shrink: 0;
+    background: #202846;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-left: 138px;
+    margin-top: 10px;
+}
+.menu{
+    width: 170px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.line{
+    width: 2px;
+    height: 59px;
+    background: #FFF;
+}
+#selector{
+    width: 65px;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #202846;
+    align-self: center;
+}
+.menu_ending{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
+    width: 170px;
+    height: 55px;
+}
+
+/* menu ending */
+
+.rent{
+    width: 100%;
+    height: 140px;
+    flex-shrink: 0;
+    background: #C6C6DC;
+}
+.rent_text{
+    display: flex;
+    height: 139px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #202846;
+    font-family: "PT Sans";
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-left: 227px;
+}
+
+/* rent block ends here */
+
+.pics_and_text{
+    width: 1490px;
+    height: 665px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.section1{
+    display: flex;
+    width: 445px;
+    height: 660px;
+    flex-direction: column;
+ 
+}
+.pic1{
+    display: flex;
+    background-image: url(/image/img1.JPG);
+    width: 445px;
+    height: 230px;
+    background-repeat: no-repeat;
+
+}
+.pic2{
+    width: 445px;
+    height: 343px;
+    display: flex;
+    background-image: url(/image/img2.JPG);
+    background-repeat: no-repeat;
+}
+
+/* Section 1 ends here */
+
+.section2{
+    width: 700px;
+    height: 665px;
+    display: flex;
+    margin: 0;
+    flex-direction: column ;
+}
+.rect{
+    display: flex;
+    width: 700px;
+    height: 300px;
+    background-color: #C1C1C3E6;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.text1{
+    font-family: PT Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.text2{
+    font-family: PT Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.double{
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    width: 700px;
+}
+
+.pic3{
+    background-image: url(/image/img3.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    width: 435px;
+    height: 175px;
+}
+
+.pic4{
+    display: flex;
+    width: 420px;
+    height: 175px;
+    background-image: url(/image/img4.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+.move{
+    background-image: url(/image/Component\ 5.svg);
+    width: 245px;
+    height: 68px;
+    align-self: flex-end;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 40px;
+}
+.arrow{
+    stroke-width: 3px;
+    stroke: #FFF;
+    width: 33.979px;
+    transform: rotate(180deg);
+    flex-shrink: 0;
+    align-self: center;
+    margin-left: 30px;
+}
+.arrow_text{
+    color: #FFF;
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 149.645px;
+    justify-content: center;
+    flex-shrink: 0;
+    align-self: center;
+    margin: 0;
+}
+
+.empty_places{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.places_text{
+    display: flex;
+    margin: 0;
+    font-family: PT Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0em;
+    margin: 0 auto;
+}
+.places{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60px;
+}
+.box{
+    background: rgba(198, 198, 220, 1);
+    flex-direction: column;
+    display: flex;
+    width: 950px;
+    height: 250px;
+    border: 2px solid rgba(144, 164, 174, 1);
+}
+.header1{
+    font-family: PT Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+.double1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.box_txt1{
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+.selector1{
+    background: rgba(255, 255, 255, 1);
+    margin-left: 20px;
+    width: 250px;
+}
+.box_txt2{
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.selector2{
+    background: rgba(255, 255, 255, 1);
+    margin-left: 20px;
+    width: 250px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: flex-end;
+    background: rgba(43, 54, 92, 1);
+    width: 250px;
+    height: 70px;
+    margin-right: 70px;
+    margin-top: -60px;
+}
+.button_text{
+    display: flex;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(206, 206, 216, 1);
+    align-self: center;
+}
+.triple{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.box_text1{
+    font-family: PT Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.choose1{
+    width: 40px;
+    margin-left: 10px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.box_text2{
+    font-family: PT Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.box_text3{
+    font-family: PT Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+th{
+    background-color: #4C536B;
+    font-family: PT Sans;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFF;
+}
+.td1{
+    display: flex;
+    height: 200px;
+}
+.table_image{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+}
+.div_text{
+    display: flex;
+    align-self: center;
+    height: 150px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.table_text1{
+    text-align: start;
+    font-family: PT Sans;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+}
+#show_prices{
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.table2{
+
+    margin-top: 50px;
+    margin-left: 10%;
+}
+ 
+.footer{
+    width: 100%;
+    height: 90px;
+    background: #202846;
+    margin-top: 6%;
+    display: flex;
+    justify-content: start;
+}
+.footer_text{
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    width: 709px;
+    color: rgba(238, 236, 241, 1);
+    display: flex;
+    align-self: center;
+}
+/* footer ending */
